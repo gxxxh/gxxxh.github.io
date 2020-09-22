@@ -609,6 +609,22 @@ kbd {
   -ms-transform: rotate(0);
   transform: rotate(0);
 }
+body {
+  position: relative;
+}
+body::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  height: 100vh;
+  z-index: -2;
+  background: url("/source/assets/bg.jpg") no-repeat center/cover;
+}
 .container {
   white-space: normal;
   word-wrap: break-word;
@@ -892,18 +908,6 @@ kbd {
   z-index: 0;
   width: 100%;
   height: 100%;
-  background: url("/source/assets/bg.jpg") no-repeat center/cover;
-}
-.header-banner::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
 }
 .header-banner-info {
   position: absolute;
@@ -1040,67 +1044,6 @@ kbd {
 .sidebar-toc ol {
   margin: 0;
   padding-left: 1em;
-}
-.sidebar-ov-author {
-  width: 100%;
-  text-align: center;
-}
-.sidebar-ov-author__avatar {
-  margin: 0 auto;
-  width: 120px;
-  height: 120px;
-}
-.sidebar-ov-author__avatar_img {
-  opacity: 1;
-  -ms-filter: none;
-  filter: none;
-}
-.sidebar-ov-author__avatar:hover .sidebar-ov-author__avatar_img {
-  -webkit-animation: avatar-turn 0.8s both ease-out;
-  -moz-animation: avatar-turn 0.8s both ease-out;
-  -o-animation: avatar-turn 0.8s both ease-out;
-  -ms-animation: avatar-turn 0.8s both ease-out;
-  animation: avatar-turn 0.8s both ease-out;
-}
-@-moz-keyframes avatar-turn {
-  100% {
-    -webkit-transform: rotate(1turn);
-    -moz-transform: rotate(1turn);
-    -o-transform: rotate(1turn);
-    -ms-transform: rotate(1turn);
-    transform: rotate(1turn);
-  }
-}
-@-webkit-keyframes avatar-turn {
-  100% {
-    -webkit-transform: rotate(1turn);
-    -moz-transform: rotate(1turn);
-    -o-transform: rotate(1turn);
-    -ms-transform: rotate(1turn);
-    transform: rotate(1turn);
-  }
-}
-@-o-keyframes avatar-turn {
-  100% {
-    -webkit-transform: rotate(1turn);
-    -moz-transform: rotate(1turn);
-    -o-transform: rotate(1turn);
-    -ms-transform: rotate(1turn);
-    transform: rotate(1turn);
-  }
-}
-@keyframes avatar-turn {
-  100% {
-    -webkit-transform: rotate(1turn);
-    -moz-transform: rotate(1turn);
-    -o-transform: rotate(1turn);
-    -ms-transform: rotate(1turn);
-    transform: rotate(1turn);
-  }
-}
-.sidebar-ov-author__text {
-  margin: 0.5rem 0 0;
-  font-weight: 600;
 }
 .sidebar-ov-state {
   padding: 0.5rem 0;
