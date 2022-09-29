@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T07:41:51.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.7" etag="bjDuHb17i7ADa0v2c7Ns" type="github"><diagram id="5sJxOJm0i9FzxbhaeaOm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-29T07:48:26.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1BjrLN1BT3DBkUDOa1Vq" version="20.3.7" type="github">
+  <diagram id="5sJxOJm0i9FzxbhaeaOm" name="第 1 页">
+    <mxGraphModel dx="1209" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="142.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_Jw406gbGQZxI5sDxM2-1" target="v_Jw406gbGQZxI5sDxM2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_Jw406gbGQZxI5sDxM2-1" target="v_Jw406gbGQZxI5sDxM2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v_Jw406gbGQZxI5sDxM2-1" target="v_Jw406gbGQZxI5sDxM2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-1" value="TVM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="180" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-2" value="&lt;br&gt;CPU" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-7" value="TVM Runtime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="75" y="310" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-8" value="&lt;br&gt;GPU" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="310" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-9" value="TVM Runtime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="310" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-10" value="&lt;br&gt;FPGA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-11" value="TVM Runtime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="295" y="310" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v_Jw406gbGQZxI5sDxM2-16" value="RPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="230" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
